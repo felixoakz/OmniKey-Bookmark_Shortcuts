@@ -15,19 +15,19 @@ No more digging through bookmark folders or remembering full URLs — just type 
 
 - Use `>` as an omnibox keyword to trigger shortcuts  
 - Define bookmarks with names starting with `>` like `>gpt - ChatGPT`  
-- Type `> gpt` (after `>`, press space then `gpt`) in the address bar to open your bookmarked site  
+- Type `> gpt` (after `>`, press space or TAB then `gpt`) in the address bar to open your bookmarked site  
 - Auto-suggestions based on your bookmark shortcuts as you type  
 - Open shortcut in **current tab** with `> gpt`  
 - Open shortcut in **new tab** with `> >gpt` (type an extra `>` after the space)  
-- No external config: just create bookmarks with `>` prefix in the name  
+- No external config: just name bookmarks with `>` prefix in the name  
 
 ---
 
 ## 🎯 Why use Greater Shortcuts?
 
-- **Lightning-fast navigation** to your favorite sites  
+- **Keyboard centric and fast navigation** to your favorite sites  
 - Keeps bookmarks organized and searchable  
-- Leverages Chrome’s native bookmarks—no external databases or syncing  
+- Leverages Chrome’s native bookmarks—no external and extra databases or syncing  
 - Minimal permissions, no privacy compromises  
 
 ---
@@ -60,18 +60,13 @@ No more digging through bookmark folders or remembering full URLs — just type 
 - Manifest v3, uses Chrome bookmarks and omnibox APIs  
 - Background service worker handles input and bookmark lookup  
 - Suggestions capped at 5 matches  
-- Notifications alert when no shortcut found  
+- System Notifications alert when no shortcut found  
 
 ---
 
 ## 🙌 Contributing
 
-Feel free to submit issues or PRs to improve! Ideas welcome:
-
-- Fuzzy matching shortcuts  
-- Syncing shortcut mappings across devices  
-- Custom keywords  
-- Icon customization  
+Feel free to submit issues or PRs to improve! Ideas welcome
 
 ---
 
@@ -81,4 +76,4 @@ MIT License © [Felix Carvalho]
 
 ---
 
-Enjoy blazing-fast navigation with **Greater Shortcuts**!  
+Enjoy blazing-fast navigation with **Greater Shortcuts**!
