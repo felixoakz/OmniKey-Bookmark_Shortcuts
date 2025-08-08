@@ -1,6 +1,7 @@
 # OmniKey - Bookmark Shortcuts
 
-> Your favorite sites, just a keystroke away. OmniKey turns your Chrome bookmarks into powerful, fast-access shortcuts right from the address bar.
+> Your favorite sites, just a keystroke away.
+> OmniKey turns your Chrome bookmarks into powerful, fast-access shortcuts right from the address bar.
 
 ---
 
