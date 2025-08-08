@@ -1,64 +1,70 @@
-# OmniKey - Bookmark Shortcuts
+# OmniKey – Bookmark Shortcuts
 
-> Your favorite sites, just a keystroke away.
-> OmniKey turns your Chrome bookmarks into powerful, fast-access shortcuts right from the address bar.
+> Your favorite sites, just a keystroke away.  
+> **OmniKey** turns your Chrome bookmarks into fast-access shortcuts right from the address bar.
 
 ---
 
 ## 🚀 What is it?
 
-**OmniKey** is a lightweight and efficient Chrome extension that lets you create custom shortcuts for your bookmarks. Stop hunting through folders and menus—just assign a quick keyword and launch your favorite sites instantly.
-
-It's designed for speed, simplicity, and a keyboard-first workflow.
+**OmniKey** is a minimal, keyboard-first Chrome extension that lets you open bookmarks using custom shortcuts.  
+Stop hunting through folders—just type and launch.
 
 ---
 
 ## 🔥 Features
 
-- **Keyword-Based Shortcuts**: Type `/` + `Tab` or `Space` in the address bar to activate.
-- **Simple Naming**: Add a shortcut to any bookmark by editing its name, like `My Favorite Website /fav`.
-- **Smart Suggestions**: Get real-time suggestions as you type your shortcut.
-- **New Tab Control**: Open links in a new tab by typing `/` twice (e.g., `/ /fav`).
-- **Zero Configuration**: Works entirely with Chrome's native bookmarks. No extra accounts or databases needed.
-- **Minimal & Secure**: Requires only the essential permissions. Your data stays private.
+- **Keyword Shortcuts**: Type `/` + `Tab` or `Space` to activate.
+- **Simple Naming**: Add `/shortcut` to a bookmark’s title.
+- **Autocomplete**: Real-time suggestions as you type.
+- **New Tab Support**: Type `/ /shortcut` to open in a new tab.
+- **Zero Setup**: Uses Chrome’s native bookmarks—no config needed.
+- **Privacy-Respecting**: Requires minimal permissions.
 
 ---
 
 ## 💡 How to Use
 
-1.  **Install the extension** from the Chrome Web Store (or load it unpacked).
-2.  **Create a shortcut**:
-    -   Find a bookmark you want to access quickly.
-    -   Edit its name and add a shortcut at the end, separated by a `/`.
-    -   Example: `Google Drive /gd`
-3.  **Launch it**:
-    -   Go to the address bar, type `/`, and press `Tab` or `Space`.
-    -   Type your shortcut (e.g., `gd`).
-    -   Press **Enter**.
-
-To open in a **new tab**, just add an extra `/` at the beginning: `/ /gd`.
+1. **Install** from the Chrome Web Store (link coming soon).
+2. **Create a shortcut**:
+   - Edit a bookmark’s title to include a shortcut, e.g., `Google Drive /gd`
+3. **Launch it**:
+   - In the address bar, type `/`, then `Tab` or `Space`
+   - Type `gd`, then hit `Enter`
+   - For a new tab: `/ /gd`
 
 ---
 
-## 📦 Installation
+## 📦 Installation (Manual)
 
-**Recommended:** Install from the official Chrome Web Store (link coming soon).
-
-**Manual (for developers):**
-
-1.  Clone this repository.
-2.  Open Chrome and navigate to `chrome://extensions`.
-3.  Enable **Developer mode**.
-4.  Click **Load unpacked** and select the cloned folder.
+1. Clone this repo
+2. Go to `chrome://extensions`
+3. Enable **Developer mode**
+4. Click **Load unpacked** and select the folder
 
 ---
 
 ## 🙌 Contributing
 
-This is an open-source project. Contributions, ideas, and bug reports are welcome!
+Suggestions and PRs welcome!  
+Ideas to explore:
+
+- Fuzzy matching
+- Sync shortcuts across devices
+- Custom trigger character
+- Icon customization
 
 ---
 
 ## 📜 License
 
 MIT License © [Felix Carvalho]
+
+---
+
+## ☕ Support My Work
+
+I'm a self-taught developer building open-source tools to make browsing faster and simpler.
+
+- [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/felixcarvalho)
+- Pix key (Brazil): `40306a64-00d8-4bad-804c-aca0bbe76131`
