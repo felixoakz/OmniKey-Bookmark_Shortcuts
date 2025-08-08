@@ -1,79 +1,63 @@
-# Greater Shortcuts
+# OmniKey - Bookmark Shortcuts
 
-> Boost your Chrome workflow with bookmark-driven keyboard shortcuts using the `>` omnibox!
+> Your favorite sites, just a keystroke away. OmniKey turns your Chrome bookmarks into powerful, fast-access shortcuts right from the address bar.
 
 ---
 
 ## 🚀 What is it?
 
-**Greater Shortcuts** is a minimal Chrome extension that lets you open bookmarks quickly by typing `>` + your shortcut keyword directly in the address bar.  
-No more digging through bookmark folders or remembering full URLs — just type your shortcut and jump instantly.
+**OmniKey** is a lightweight and efficient Chrome extension that lets you create custom shortcuts for your bookmarks. Stop hunting through folders and menus—just assign a quick keyword and launch your favorite sites instantly.
+
+It's designed for speed, simplicity, and a keyboard-first workflow.
 
 ---
 
 ## 🔥 Features
 
-- Use `>` as an omnibox keyword to trigger shortcuts  
-- Define bookmarks with names starting with `>` like `>gpt - ChatGPT`  
-- Type `> gpt` (after `>`, press space or TAB then `gpt`) in the address bar to open your bookmarked site  
-- Auto-suggestions based on your bookmark shortcuts as you type  
-- Open shortcut in **current tab** with `> gpt`  
-- Open shortcut in **new tab** with `> >gpt` (type an extra `>` after the space)  
-- No external config: just name bookmarks with `>` prefix in the name  
-
----
-
-## 🎯 Why use Greater Shortcuts?
-
-- **Keyboard centric and fast navigation** to your favorite sites  
-- Keeps bookmarks organized and searchable  
-- Leverages Chrome’s native bookmarks—no external and extra databases or syncing  
-- Minimal permissions, no privacy compromises  
+- **Keyword-Based Shortcuts**: Type `/` + `Tab` or `Space` in the address bar to activate.
+- **Simple Naming**: Add a shortcut to any bookmark by editing its name, like `My Favorite Website /fav`.
+- **Smart Suggestions**: Get real-time suggestions as you type your shortcut.
+- **New Tab Control**: Open links in a new tab by typing `/` twice (e.g., `/ /fav`).
+- **Zero Configuration**: Works entirely with Chrome's native bookmarks. No extra accounts or databases needed.
+- **Minimal & Secure**: Requires only the essential permissions. Your data stays private.
 
 ---
 
 ## 💡 How to Use
 
-1. Install the extension ([load unpacked](https://developer.chrome.com/docs/extensions/mv3/getstarted/#unpacked))  
-2. Create bookmarks with names starting with `>`  
-   - Example:  
-     - Name: `>gpt - ChatGPT`  
-     - URL: `https://chatgpt.com`  
-3. Open Chrome’s address bar, type `>` then press **space** to activate Greater Shortcuts  
-4. Type your shortcut keyword (e.g., `gpt`)  
-5. Press **Enter** to open in current tab  
-6. Or type an extra `>` before the shortcut (e.g., `> >gpt`) after the space to open in a new tab  
+1.  **Install the extension** from the Chrome Web Store (or load it unpacked).
+2.  **Create a shortcut**:
+    -   Find a bookmark you want to access quickly.
+    -   Edit its name and add a shortcut at the end, separated by a `/`.
+    -   Example: `Google Drive /gd`
+3.  **Launch it**:
+    -   Go to the address bar, type `/`, and press `Tab` or `Space`.
+    -   Type your shortcut (e.g., `gd`).
+    -   Press **Enter**.
+
+To open in a **new tab**, just add an extra `/` at the beginning: `/ /gd`.
 
 ---
 
 ## 📦 Installation
 
-- Clone this repo  
-- Open `chrome://extensions` in Chrome  
-- Enable **Developer mode**  
-- Click **Load unpacked** and select this repo folder  
+**Recommended:** Install from the official Chrome Web Store (link coming soon).
 
----
+**Manual (for developers):**
 
-## ⚙️ Developer Notes
-
-- Manifest v3, uses Chrome bookmarks and omnibox APIs  
-- Background service worker handles input and bookmark lookup  
-- Suggestions capped at 5 matches  
-- System Notifications alert when no shortcut found  
+1.  Clone this repository.
+2.  Open Chrome and navigate to `chrome://extensions`.
+3.  Enable **Developer mode**.
+4.  Click **Load unpacked** and select the cloned folder.
 
 ---
 
 ## 🙌 Contributing
 
-Feel free to submit issues or PRs to improve! Ideas welcome
+This is an open-source project. Contributions, ideas, and bug reports are welcome!
 
 ---
 
 ## 📜 License
 
 MIT License © [Felix Carvalho]
-
----
-
-Enjoy blazing-fast navigation with **Greater Shortcuts**!

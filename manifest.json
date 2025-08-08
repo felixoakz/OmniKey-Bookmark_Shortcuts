@@ -1,11 +1,11 @@
 {
   "manifest_version": 3,
-  "name": "Greater Shortcuts",
-  "description": "Use >keyword in the address bar to open matching bookmarks.",
+  "name": "OmniKey - Bookmark Shortcuts",
+  "description": "Use the address bar to open bookmarks with custom shortcuts.",
   "version": "1.0",
   "permissions": ["bookmarks", "tabs", "notifications"],
   "omnibox": {
-    "keyword": ">"
+    "keyword": "/"
   },
   "icons": {
     "48": "icon48.png",
@@ -15,6 +15,6 @@
     "service_worker": "background.js"
   },
   "action": {
-    "default_title": "Greater Shortcuts"
+    "default_title": "OmniKey - Bookmark Shortcuts"
   }
 }
