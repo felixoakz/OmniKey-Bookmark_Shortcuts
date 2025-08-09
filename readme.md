@@ -38,6 +38,7 @@ It started as a personal tool, but I decided to publish it for other keyboard-ce
 - **Simple Naming**: Add `/shortcut` to the end of bookmark’s title name.
 - **Autocomplete**: Real-time suggestions as you type.
 - **Open in New Tab Support**: Prefix your shortcut with another / to open in a new tab.
+- **No configuration exception**: System notification if no shortcut found.
 - **Native & Private**: Uses your existing bookmarks naming, with no extra setup and requires minimal permissions.
 
 ---
