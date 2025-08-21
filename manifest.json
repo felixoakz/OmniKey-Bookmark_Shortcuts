@@ -8,8 +8,8 @@
     "keyword": "/"
   },
   "icons": {
-    "48": "icon48.png",
-    "128": "icon128.png"
+    "48": "icon.png",
+    "128": "icon.png"
   },
   "background": {
     "service_worker": "background.js"

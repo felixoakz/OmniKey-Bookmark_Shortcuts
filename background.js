@@ -142,7 +142,7 @@ chrome.omnibox.onInputEntered.addListener((text) => {
 
     chrome.notifications?.create({
       type: 'basic',
-      iconUrl: 'icon48.png',
+      iconUrl: 'icon.png',
       title: 'Shortcut Not Found',
       message: `No bookmark found with the shortcut: "${query}"`
     });
