@@ -47,11 +47,11 @@ It started as a personal tool, but I decided to publish it for other keyboard-ce
 
 MIT License © [Felix Carvalho]
 
----
-
-## ☕ Support My Work
-
-I'm a self-taught developer building tools to make our lifes a little easier.
-
-- [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/felixcarvalho)
-- Pix key (Brazil): `40306a64-00d8-4bad-804c-aca0bbe76131`
+<!-- --- -->
+<!---->
+<!-- ## ☕ Support My Work -->
+<!---->
+<!-- I'm a self-taught developer building tools to make our lifes a little easier. -->
+<!---->
+<!-- - [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/felixcarvalho) -->
+<!-- - Pix key (Brazil): `40306a64-00d8-4bad-804c-aca0bbe76131` -->
